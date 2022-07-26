@@ -2,7 +2,7 @@
 import { readFile, writeFile } from 'fs/promises'
 import { program } from 'commander'
 import { getPaths, getOutPath, getKeys } from './utlis.js'
-import diff from './diff.js'
+import diff from './lib/diff.js'
 
 program.version("1.0.0", '-v, --version', 'diffjs latest version of!');
 program

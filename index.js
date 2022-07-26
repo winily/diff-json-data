@@ -1,0 +1,1 @@
+export { default as diff } from './lib/diff.js'

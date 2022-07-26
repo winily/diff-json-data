@@ -1,4 +1,4 @@
-import diff from '../diff.js'
+import diff from '../lib/diff.js'
 import { writeFileSync, readFileSync } from 'fs'
 
 function main () {
