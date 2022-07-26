@@ -13,5 +13,10 @@
   },
   "dependencies": {
     "commander": "^9.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/winily/diff-json-data.git",
+    "directory": "packages/diff-json-data"
   }
 }
