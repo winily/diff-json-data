@@ -1,7 +1,7 @@
 {
   "name": "diff-json-data",
   "version": "1.0.2",
-  "main": "index.js",
+  "main": "./lib/diff.js",
   "license": "MIT",
   "type": "module",
   "scripts": {
@@ -12,11 +12,18 @@
     "diffjs": "./cli.js"
   },
   "dependencies": {
-    "commander": "^9.3.0"
+    "commander": "^9.3.0",
+    "diff-json-data": "^1.0.2"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/winily/diff-json-data.git",
     "directory": "packages/diff-json-data"
+  },
+  "exports": {
+    ".": {
+      "require": "./lib/diff.js",
+      "import": "./lib/diff.mjs"
+    }
   }
 }
