@@ -1,0 +1,17 @@
+{
+  "name": "diff-js-value",
+  "version": "1.0.0",
+  "main": "cli.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "install": "npm install -g",
+    "test": "node ./test/test.js"
+  },
+  "bin": {
+    "diffjs": "./cli.js"
+  },
+  "dependencies": {
+    "commander": "^9.3.0"
+  }
+}

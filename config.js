@@ -1,0 +1,9 @@
+export const PATH_KEY = "path"
+export const OUT_KEY = "out"
+export const KEYS_KEY = "key"
+export const FILE_FORMAT = ".json"
+export const PATH_ERROR_MESSAGE = "path must be followed by two json file paths!"
+export const PATH_ROOT_PATTERN = /^\/.*/
+export const JSON_PATTERN = /^.*\.json/
+export const DEFAULT_OUT = "result.json"
+export const DEFAULT_KEYS = ['key1', "key2"]
