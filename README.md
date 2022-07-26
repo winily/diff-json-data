@@ -6,7 +6,6 @@
 
 我最近做的一项工作就是，接口底层链路变更了，导致返回的数据与原本的数据存在着差异，我需要对比新旧接口返回数据的差异去做转换以及兼容。每次拿到两个非常庞大的对象的时候真的非常要命，看似没什么不同实际上，在对象深层的地方藏着非常细微的差别，导致了下游程序的崩溃。最终为了稳妥，我还是写了一个小工具来辅助我的工作，就是这个 diff-json-data。
 
-
 [GitHub](https://github.com/winily/diff-json-data) 欢迎 star
 
 ## 如何安装
@@ -65,7 +64,6 @@ const result = diff({ hello: 'hhahah' }, { hello: 'hhahah', a: 1 })
 
 console.log(result)
 ```
-
 
 ## E.g
 
@@ -150,4 +148,4 @@ output ./result.json
 
 1 分也是爱～
 
-![image](https://github.com/winily/winily/blob/main/give_money.jpg)
+<img src="https://github.com/winily/winily/blob/main/give_money.jpg" style="width: 200px;"/>
