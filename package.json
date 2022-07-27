@@ -1,6 +1,6 @@
 {
   "name": "diff-json-data",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "./lib/diff.js",
   "license": "MIT",
   "type": "module",
@@ -12,8 +12,7 @@
     "diffjs": "./cli.js"
   },
   "dependencies": {
-    "commander": "^9.3.0",
-    "diff-json-data": "^1.0.2"
+    "commander": "^9.3.0"
   },
   "repository": {
     "type": "git",
