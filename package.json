@@ -1,6 +1,6 @@
 {
   "name": "diff-json-data",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "./lib/diff.js",
   "license": "MIT",
   "type": "module",
